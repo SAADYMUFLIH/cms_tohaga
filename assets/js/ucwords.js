@@ -1,0 +1,1 @@
+String.prototype.ucwords=function(){return str=this.toLowerCase(),str.replace(/(^([a-zA-Z\p{M}]))|([ -][a-zA-Z\p{M}])/g,function(r){return r.toUpperCase()})};

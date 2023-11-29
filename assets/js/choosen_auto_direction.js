@@ -1,0 +1,1 @@
+$(".chosen-select").on("chosen:showing_dropdown",function(o,n){var e=$(o.target).next(".chosen-container"),s=e.find(".chosen-drop"),c=s.offset().top-$(window).scrollTop(),t=s.height();$(window).height()<c+t&&e.addClass("chosen-drop-up")}),$(".chosen-select").on("chosen:hiding_dropdown",function(o,n){$(o.target).next(".chosen-container").removeClass("chosen-drop-up")});
